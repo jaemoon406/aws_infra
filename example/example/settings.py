@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'awsinfra',
         'USER': os.environ['USER'],
         'PASSWORD': os.environ['PASSWORD'],
-        'HOST': 'mysql-db.cyttf9g2djkc.ap-northeast-2.rds.amazonaws.com',
+        'HOST': os.environ['HOST'],
         'PORT': os.environ['PORT'],
         'OPTIONS': {'charset': 'utf8mb4'}
     }

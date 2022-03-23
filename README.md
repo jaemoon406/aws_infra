@@ -10,8 +10,8 @@
 
 ## 활용 stack  
 - AWS 
- * RDS
- * EC2
+ * RDS (MySQL)
+ * EC2 (ubuntu)
 - uwsgi (Web Server Gateway Interface)
 <pre>
 <code>
@@ -20,9 +20,9 @@ uwsgi -i local-uwsgi.ini
 
 운영환경 uwsgi 실행
 uwsgi -i employ-uwsgi.ini
-</pre>
 </code>
-
+</pre>
 - NginX
+
 
 

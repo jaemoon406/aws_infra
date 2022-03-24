@@ -6,6 +6,7 @@
 ## 진행 사항
 1. AWS(RDS, EC2)배포 환경 구축(22.03.22)
 2. uwsgi 배포(22.03.23)
+  - http > socket 방식 변경(22.03.24)
 3. NginX 배포- 예정(22.03.24)
 
 ## 활용 stack  
@@ -23,6 +24,5 @@ uwsgi -i employ-uwsgi.ini
 </code>
 </pre>
 - NginX
-
 
 

@@ -2,4 +2,4 @@ from .base import *
 
 DEBUG = False
 
-WSGI_APPLICATION = 'conf.wsgi.deploy.application'
+WSGI_APPLICATION = 'conf.wsgi.application'

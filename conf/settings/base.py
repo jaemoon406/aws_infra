@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ['SECRET_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -80,7 +80,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'awsinfra',
-        'USER': os.environ['USER'],
+        'USER': os.environ['DB_USER'],
         'PASSWORD': os.environ['PASSWORD'],
         'HOST': os.environ['HOST'],
         'PORT': os.environ['PORT'],
